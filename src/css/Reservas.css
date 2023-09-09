@@ -14,6 +14,7 @@
     font-family: cursive;
     color: white;
     display: flex;
+    flex-direction: column;
 }
 
 .reservas section.info div {
@@ -23,8 +24,32 @@
 
 .reservas .calendar {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
 
-.reservas .calendar div {
-    margin: 0 auto;
+.reservas h4 {
+    color: white;
+}
+
+.reservas form {
+    color: white;
+    width: 90%;
+    margin-top: 50px;
+}
+
+@media (min-width: 700px) {
+    .reservas section.info {
+        flex-direction: row;
+    }
+    .reservas form {
+        color: white;
+        width: 30%;
+    }
+
+    .reservas .calendar {
+        flex-direction: row;
+    }
 }

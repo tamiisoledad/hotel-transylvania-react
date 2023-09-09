@@ -8,8 +8,16 @@
     font-family: cursive;
     font-size: 20px;
     border-top: 1px solid gray;
+    flex-direction: column;
 }
+
 
 .nav p {
     margin-bottom: 0;
+}
+
+@media (min-width: 700px) {
+    .footer .nav {
+        flex-direction: row;
+    }
 }
