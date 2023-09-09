@@ -1,0 +1,156 @@
+.nosotros {
+  background-color: black;
+  font-family: 'Creepster';
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+}
+
+.nosotros .history{
+  display: flex;
+  flex-direction: column;
+  font-family: cursive;
+  color: white;
+  font-size: 20px;
+  padding: 0 20px;
+  margin-top: 30px;
+}
+
+.nosotros .history img{
+  width: 100%;
+  margin-right: 10px;
+  margin-bottom: 15px;
+}
+
+.nosotros .values{
+  display: flex;
+  flex-direction: column-reverse;
+  font-family: cursive;
+  color: white;
+  font-size: 20px;
+  padding: 0 20px;
+  margin-top: 30px;
+}
+
+.nosotros .values img{
+  width: 100%;
+  margin-right: 10px;
+}
+
+.nosotros .mision{
+  display: flex;
+  flex-direction: column;
+  font-family: cursive;
+  color: white;
+  font-size: 20px;
+  padding: 0 20px;
+  margin-top: 30px;
+}
+
+.nosotros .mision img{
+  width: 100%;
+  margin-right: 10px;
+}
+
+.nosotros .team{
+  display: flex;
+  flex-direction: column-reverse;
+  font-family: cursive;
+  color: white;
+  font-size: 20px;
+  padding: 0 20px;
+  margin-top: 30px;
+}
+
+.nosotros .team img{
+  width: 100%;
+  margin-right: 10px;
+}
+
+.nosotros a {
+  color: darkgray;
+  text-decoration: underline!important;
+}
+
+@media (min-width: 1200px) {
+  .nosotros .history{
+    flex-direction: row;
+  }
+
+  .nosotros .history img{
+    width: 60%;
+  }
+
+  .nosotros .values{
+    flex-direction: row;
+  }
+
+  .nosotros .values img{
+    width: 60%;
+  }
+
+  .nosotros .mision{
+    flex-direction: row;
+  }
+
+  .nosotros .mision img{
+    width: 60%;
+  }
+
+  .nosotros .team{
+    flex-direction: row;
+  }
+
+  .nosotros .team img{
+    width: 50%;
+  }
+}
+
+@media (min-width: 1700px) {
+  .nosotros .team{
+    margin-top: 50px;
+  }
+  .nosotros .history{
+    margin-top: 50px;
+  }
+  .nosotros .values{
+    margin-top: 50px;
+  }
+  .nosotros .mision{
+    margin-top: 50px;
+  }
+  .nosotros .history img{
+    width: 50%;
+  }
+  .nosotros .values img{
+    width: 50%;
+  }
+
+  .nosotros .mision img{
+    width: 50%;
+  }
+
+  .nosotros .team img{
+    width: 50%;
+  }
+}
+
+@media (min-width: 2000px) {
+  .nosotros .history img{
+    width: 40%;
+  }
+  .nosotros .values img{
+    width: 40%;
+  }
+
+  .nosotros .mision img{
+    width: 40%;
+  }
+
+  .nosotros .team img{
+    width: 40%;
+  }
+}

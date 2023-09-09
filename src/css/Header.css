@@ -1,0 +1,15 @@
+.navbar {
+  background-color: black!important;
+  font-family: Creepster;
+}
+
+.navbar a{
+  --bs-nav-link-padding-y: 0!important;
+  color: rgba(255, 255, 255, 0.55);
+  padding: 0 15px;
+  text-decoration: none!important;
+}
+
+.navbar a:hover{
+  color: rgba(255, 255, 255, 0.75);
+}

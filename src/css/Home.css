@@ -1,0 +1,29 @@
+.home {
+    background-color: black;
+    font-family: 'Creepster';
+    color: white;
+}
+.banner img {
+    width: 100%;
+}
+
+.welcome {
+    margin-top: 100px;
+}
+
+.welcome h1, h2 {
+    text-align: center;
+}
+
+.welcome p {
+    margin-top: 50px;
+    text-align: center;
+    padding: 0 30px;
+    font-family: cursive;
+    font-size: 25px;
+}
+
+.welcome div {
+    text-align: center;
+    padding: 20px;
+}

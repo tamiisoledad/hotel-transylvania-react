@@ -1,0 +1,30 @@
+.reservas h1 {
+    font-family: Creepster;
+}
+
+.reservas h3 {
+    color: white;
+    font-family: Creepster;
+    padding: 0 50px;
+    text-align: center;
+}
+
+.reservas section.info {
+    padding: 30px 50px;
+    font-family: cursive;
+    color: white;
+    display: flex;
+}
+
+.reservas section.info div {
+    width: 50%;
+    margin: 20px 30px;
+}
+
+.reservas .calendar {
+    width: 100%;
+}
+
+.reservas .calendar div {
+    margin: 0 auto;
+}

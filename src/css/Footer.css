@@ -1,0 +1,15 @@
+.footer {
+    margin-top: 45px;
+    background-color: black;
+}
+
+.footer .nav {
+    justify-content: space-around;
+    font-family: cursive;
+    font-size: 20px;
+    border-top: 1px solid gray;
+}
+
+.nav p {
+    margin-bottom: 0;
+}
