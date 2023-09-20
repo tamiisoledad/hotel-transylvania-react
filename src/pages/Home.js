@@ -1,5 +1,5 @@
 import React from "react";
-import { Button } from "react-bootstrap";
+import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../css/Home.css';
 
@@ -14,7 +14,7 @@ const Home = () => {
       <p>El Hotel Transylvania es el lugar perfecto para que los monstruos de todas las edades se relajen y se diviertan. Con sus habitaciones lujosas, sus restaurantes deliciosos y sus actividades emocionantes, el Hotel Transylvania tiene algo para todos.</p>
       <p>Reserve su habitación hoy mismo y descubra la magia del Hotel Transylvania</p>
       <div>
-        <Button variant="dark">Reservar</Button>
+      <Link className="btn btn-dark" to='/reservas'>Reservar</Link>
       </div>
     </section>
   </div>
